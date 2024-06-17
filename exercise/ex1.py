@@ -13,7 +13,7 @@ def homework():
     regEx1 = LinearRegression()
     regEx1.fit(X,y)
 
-    #yhat = regEx1.predict(X)
+    yhat = regEx1.predict(X)
     
     R2 = None
     R2 = regEx1.score(X,y)
